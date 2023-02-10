@@ -22,7 +22,7 @@ function App() {
     <BrowserRouter>
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <div className="container-fluid">
-        <Link to="/" className="navbar-brand">
+        <Link to="/bhucrackexam" className="navbar-brand">
           <img src="https://as1.ftcdn.net/v2/jpg/02/82/78/74/1000_F_282787473_9kdsoTGduXeag6IGhSHsi2y1C7YkYsfY.jpg" width={30} height={24}/>
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,32 +31,32 @@ function App() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <NavLink to="/" className='nav-link' >
+              <NavLink to="/bhucrackexam" className='nav-link' >
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/courses" className='nav-link '>
+              <NavLink to="/bhucrackexam/courses" className='nav-link '>
                   Courses
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/notes" className='nav-link '>
+              <NavLink to="/bhucrackexam/notes" className='nav-link '>
                     Notes
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/corner" className='nav-link '>
+              <NavLink to="/bhucrackexam/corner" className='nav-link '>
                     Corner
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/contactus" className='nav-link '>
+              <NavLink to="/bhucrackexam/contactus" className='nav-link '>
                     Contact Us
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/login" className='nav-link '>
+              <NavLink to="/bhucrackexam/login" className='nav-link '>
                     Log In
               </NavLink>
             </li>
@@ -65,12 +65,12 @@ function App() {
       </div>  
     </nav>
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path = '/courses' element={<Courses/>}/>
-        <Route path='/notes' element={<Notes/>}/>
-        <Route path='/corner' element={<Corner/>}/>
-        <Route path='/contactus' element={<ContactUs/>}/>
-        <Route path='/login' element={<LogIn/>}/>
+        <Route path='/bhucrackexam' element={<Home/>}/>
+        <Route path = '/bhucrackexam/courses' element={<Courses/>}/>
+        <Route path='/bhucrackexam/notes' element={<Notes/>}/>
+        <Route path='/bhucrackexam/corner' element={<Corner/>}/>
+        <Route path='/bhucrackexam/contactus' element={<ContactUs/>}/>
+        <Route path='/bhucrackexam/login' element={<LogIn/>}/>
         <Route path='*' element={<Error/>}/>
       </Routes>
       <div className='container-fluid bg-dark text-center p-3'>
