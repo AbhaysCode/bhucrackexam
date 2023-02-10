@@ -1,0 +1,8 @@
+.container-nav{
+    height:120vh;
+    font-size: larger;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
