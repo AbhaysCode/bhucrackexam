@@ -22,9 +22,9 @@ function App() {
     <BrowserRouter>
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <div className="container-fluid">
-        <Link to="/bhucrackexam" className="navbar-brand">
+        <NavLink to="/bhucrackexam" className="navbar-brand">
           <img src="https://as1.ftcdn.net/v2/jpg/02/82/78/74/1000_F_282787473_9kdsoTGduXeag6IGhSHsi2y1C7YkYsfY.jpg" width={30} height={24}/>
-        </Link>
+        </NavLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -92,7 +92,7 @@ function App() {
         <div className='text-light mt-3'><CallIcon/> +91 <a href='tel:+917565816193' className='link'>7565816193</a>/<a href="tel:+918563027649" className='link'>8563027649</a></div>
         <div className='text-light mt-1'><EmailIcon/><a href="mailto:bhucrackexam@gmail.com" className='link'> bhucrackexam@gmail.com</a></div>
       </div>
-      {/* <GoToTop/> */}
+      <GoToTop/>
     </BrowserRouter>
   );
 }
