@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/bhucrackexam/static/css/main.6c47da5d.css",
-    "main.js": "/bhucrackexam/static/js/main.3d7445a8.js",
+    "main.css": "/bhucrackexam/static/css/main.8e235fc0.css",
+    "main.js": "/bhucrackexam/static/js/main.2556b58d.js",
     "index.html": "/bhucrackexam/index.html",
-    "main.6c47da5d.css.map": "/bhucrackexam/static/css/main.6c47da5d.css.map",
-    "main.3d7445a8.js.map": "/bhucrackexam/static/js/main.3d7445a8.js.map"
+    "main.8e235fc0.css.map": "/bhucrackexam/static/css/main.8e235fc0.css.map",
+    "main.2556b58d.js.map": "/bhucrackexam/static/js/main.2556b58d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c47da5d.css",
-    "static/js/main.3d7445a8.js"
+    "static/css/main.8e235fc0.css",
+    "static/js/main.2556b58d.js"
   ]
 }
